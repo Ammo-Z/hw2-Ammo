@@ -1,0 +1,37 @@
+[
+  {
+    "id": "case_1_deep_tech_normal",
+    "type": "Normal - High Jargon",
+    "description": "EVT build SMT failure analysis requiring multi-party debugging.",
+    "expected_output": "Extract 3 tasks: Supplier to adjust SMT profile, EE to update DFM, PM to track yield.",
+    "transcript": "PM: Yield on the main PCBA for EVT dropped to 82%. What's the root cause? EE (Electrical Engineer): We are seeing tombstoning on the 0201 bypass caps near the PMIC. SMT Supplier: The thermal mass of the PMIC is stealing heat. We need to tweak the reflow oven temperature profile, specifically extending the soak zone by 15 seconds. EE: Okay, let's do a split-lot DOE. Run 50 boards with the new profile. Supplier: Will do, we'll run it tonight. PM: Great. EE, once we get the X-ray results tomorrow, please update the DFM guidelines for the DVT build so we don't repeat this. I will track the overall yield impact in Jira."
+  },
+  {
+    "id": "case_2_escalation_conditional",
+    "type": "Complex Conditions",
+    "description": "EOL component crisis with conditional 'If X, then Y' outcomes.",
+    "expected_output": "Capture the conditional supply chain tasks and engineering redesign backup plan.",
+    "transcript": "GSM (Supply Manager): Bad news, the TI motor driver IC went EOL (End of Life). We have zero stock for the next build. PM: We need 5,000 units by next week. Can we buy from brokers? GSM: Spot market price is $5 instead of $1.20. I need VP approval. PM: Do it. Request the PO approval for the broker buy by EOD today. ME (Mech Eng): What if the broker parts are counterfeit? EE: Good point. I'll start spinning a new PCB revision to support an alternative Allegro motor driver just in case. PM: Okay, EE, get me the new schematic and Gerber files by Friday as our backup plan."
+  },
+  {
+    "id": "case_3_edge_noise",
+    "type": "Edge Case - Noise & Tangents",
+    "description": "Meeting derailed by travel complaints and IT issues, burying one critical task.",
+    "expected_output": "Filter out 90% of the transcript (Shenzhen travel, VPN, expense reports) to find the single NRE invoice task.",
+    "transcript": "Supplier: Before we talk tooling, when are you guys flying to Shenzhen? The factory misses you. PM: Visas are delayed. Plus, the company travel portal has been down since Tuesday. ME: Don't get me started, my VPN isn't working and I can't even approve my expense reports for last month's trip to Taiwan. IT is a disaster. GSM: Same here. Anyway, Supplier, regarding the CNC machining, the NRE cost for the extra 5-axis fixture is $3,000. Supplier: Yes, we need that paid before we cut metal. GSM: Fine, I will submit the $3k NRE invoice to Finance this afternoon. ME: Can someone send IT a ticket for the VPN? I'm not doing it. PM: Let's focus people. Lunch?"
+  },
+  {
+    "id": "case_4_extreme_hallucination",
+    "type": "Extreme Failure Risk",
+    "description": "Flip-flopping decisions, overlapping voices, sarcasm, and partial tooling release.",
+    "expected_output": "Accurately capture the *final* partial tooling release (core/cavity only) and ignore the sarcasm and canceled CMF change.",
+    "transcript": "ME: Let's kick off the T0 injection molding tooling for the bottom casing. GSM: Wait, didn't Industrial Design (ID) change the CMF (Color, Material, Finish) to a matte texture? That changes the mold draft angles. PM: Stop the tooling PO then. ME: Hold on, let me check Slack... okay, ID says the old glossy CMF is fine for DVT. We reverted the decision. GSM: So kick off the whole tool? ME: Actually, no. Let's only release the core and cavity for now. Hold off on the slide actions until I finish the drop test simulation. PM: Okay. GSM, issue the PO for the core and cavity only, due today. ME: And I'll totally redesign the whole casing tonight... kidding. I'll finish the drop test sim by Wednesday."
+  },
+  {
+    "id": "case_5_negotiation",
+    "type": "Conflict Resolution",
+    "description": "Negotiating cosmetic defect tolerances and limit samples.",
+    "expected_output": "Extract tasks for sending golden/limit samples and signing the SIP document.",
+    "transcript": "Supplier: The yield on the anodized aluminum covers is terrible. You are rejecting everything for microscopic scratches. Quality Engineer (QE): We are following the SIP (Standard Inspection Procedure). The cosmetic A-surface must be flawless. Supplier: We need to loosen the tolerance to a 0.5mm scratch limit, or raise the unit price by 20%. PM: We are not paying 20% more. QE, can we accept a 0.2mm scratch limit? QE: Let me check with Marketing. I will create a set of physical limit samples (golden samples) with 0.2mm scratches and mail them to you by Thursday for sign-off. PM: Deal. Supplier, once you receive them, sign the updated SIP by next Monday."
+  }
+]
