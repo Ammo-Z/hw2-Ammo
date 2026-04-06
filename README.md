@@ -12,4 +12,4 @@
 **Value Proposition:** Hardware supply chain meetings are dense, filled with acronyms (MOQ, DFM, PCBA), and often involve rapid decision changes (e.g., swapping a component due to lead times). Missing an action item can delay manufacturing builds (EVT/DVT) by weeks. Automating the initial extraction saves PMs hours of manual review and reduces human error.
 
 ## Video Walkthrough
-[Link to unlisted YouTube video will go here]
+[\[Link to unlisted YouTube video will go here\]](https://youtu.be/FJlCu8mITmo)
